@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IEA Portfolio</title>
+<title>Isabella Abilhei Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,7 +11,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
 </head>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class="w3-content" style="max-width:1600px; background-color:#CDCBCD;">
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
@@ -19,8 +19,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="images/me.jpg" alt="Portrait" style="width:45%;" class="w3-round"><br><br>
-    <h4><b>Isabella Abilheira</b></h4>
+    <img src="portrait/me.jpg" alt="Portrait" style="width:65%;" class="w3-round"><br><br>
+    <h3><b>Isabella Abilheira</b></h3>
     <p class="w3-text-grey">B.S. in Electrical and Computer Engineering from Olin College</p>
   </div>
   <div class="w3-bar-block">
@@ -46,11 +46,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <!-- Header -->
   <header id="portfolio">
-    <a href="#"><img src="images/me.jpg" alt="Io" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <a href="#"><img src="portrait/me.jpg" alt="Io" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <div class="w3-container">
-    <h1><b>My Portfolio</b></h1>
-    <div class="w3-section w3-bottombar w3-padding-16">
+    <div class="w3-margin w3-margin-top">
+      <div class="w3-margin">
+        <h1><b>My Portfolio</b></h1>
+      </div>
+    <div class="w3-section w3-margin-top" >
       <span class="w3-margin-right">Filter:</span> 
       <button class="w3-button w3-black">ALL</button>
       <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Software</button>
@@ -63,23 +65,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/me.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="bose/images/bose_logo.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Senior Capstone Project with Bose</b></p>
+        <h4><b>Senior Capstone Project with Bose</b></h4>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="formula/images/car.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Formula SAE</b></p>
+        <h4><b>Formula SAE</b></h4>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="rover/images/rover.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Autonomous Rover</b></p>
+        <h4><b>Autonomous Rover</b></h4>
         <p>A fully autonomous rover that drove around Olin College campus</p>
       </div>
     </div>
@@ -305,6 +307,6 @@ function w3_close() {
     document.getElementById("myOverlay").style.display = "none";
 }
 </script>
-
+ 
 </body>
 </html>
